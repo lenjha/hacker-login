@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'hacked';
+  src: url("HACKED.ttf") format("truetype");
+}
+
+body {
+  background-image: url("../img/background.jpg");
+}
+
+.container{
+  font-family: hacked;
+  font-size: 2em;
+  color: white;
+ width: 80%;
+ height: 500px;
+ box-shadow: 0px 6px 23px 7px #29794d;
+ padding: 20px;
+ background: #29545299;
+ margin-top: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 15px;
+ overflow: hidden;
+}
+
+form{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  left: 20%;
+  box-sizing: border-box;
+   padding-bottom: 30px;
+}
+
+h1{
+  text-align: center;
+  font-size: 55px;
+}
+
+button {
+  position: absolute;
+  box-sizing: border-box;
+  font-family: hacked;
+  width: 100px;
+  top: 220px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 3em;
+  left: 17%;
+}
+
+button:hover {
+  color: red;
+}
+
+input {
+  position: absolute;
+  font-size: .5em;
+  box-sizing: border-box;
+  font-family: hacked;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.username-input {
+  position: absolute;
+  top: 20px;
+  left: 22%;
+}
+
+.password-input {
+  position: absolute;
+  top: 110px;
+  left: 22%;
+}
+
+label {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+
+}
